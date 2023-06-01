@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-from awesome_table import AwesomeTable
 #import pandas as pd
 import json
 from pathlib import Path
@@ -123,24 +122,28 @@ with st.expander('Detailed Description'):
 st.write("#")
 st.subheader("Education 🎓")
 st.write("---")
-df = [{
-  "Degree" : 'MSc',
-  "Course" : 'Data Science and Statistics',
-  "Date" : '2022-2023',
-  "University" : 'University of Exeter',
-  "Score" : 4.0,
-  "Modules" : 'Working with Data, Statistical Data Modelling, Advanced Statistics,Application of Data Science,DS in Time and Space'
-  },{
-  "Degree" : 'Btech',
-  "Course" : 'Computer Science',
-  "Date" : '2016-2020',
-  "University" : 'Mukesh Patel School of Technology Management & Engineering',
-  "Score" : 2.97,
-  "Modules" : 'Data Structures, Database Management Systems, Artificial Intelligence, Numerical Methods, Predictive Modelling, Design and Analysis of Algorithms, Software Engineering'
-}
-]
+df = {
+  "Degree" : ['MSc','Btech'],
+  "Course" : ['Data Science and Statistics','Computer Science'],
+  "Date" : ['2022-2023','2016-2020'],
+  "University" : ['University of Exeter','Mukesh Patel School of Technology Management & Engineering'],
+  "Score" : [4.0,2.97],
+  "Modules" : ['Working with Data, Statistical Data Modelling, Advanced Statistics,Application of Data Science,DS in Time and Space',
+  'Data Structures, Database Management Systems, Artificial Intelligence, Numerical Methods, Predictive Modelling, Design and Analysis of Algorithms, Software Engineering']
+  }
 
-AwesomeTable(json_normalize(df))
+df = pd.DataFrame(df)
+# CSS to inject contained in a string
+hide_table_row_index = """
+            <style>
+            thead tr th:first-child {display:none}
+            tbody th {display:none}
+            </style>
+            """
+
+# Inject CSS with Markdown
+st.markdown(hide_table_row_index, unsafe_allow_html=True)
+st.table(df)
 
 #Skills
 info = {'skills':['Data Science','SQL','Postgres','MongoDB','Python','Java','C++','Airflow','PowerBI','Asana', 'Loom', 'Clockify', 'Notion']}
