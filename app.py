@@ -5,9 +5,9 @@ import pandas as pd
 from pathlib import Path
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-css_file = "/content/main.css"
-resume_file = "/content/PTSumedhNakod.pdf"
-profile_pic_file = "/content/profile-pic1.png"
+#css_file = "/content/main.css"
+resume_file = current_dir / "PTSumedhNakod.pdf"
+profile_pic_file = current_dir / "profile-pic1.png"
 
 PAGE_TITLE = "Digital cv | Sumedh Nakod"
 PAGE_ICON = ":wave:"
