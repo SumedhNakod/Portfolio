@@ -1,1 +1,1 @@
-streamlit-awesome-table==0.1.0
+streamlit-awesome-table
