@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 from awesome_table import AwesomeTable
 import pandas as pd
+from pandas import json_normalize
 from pathlib import Path
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -139,7 +140,7 @@ df = [{
 }
 ]
 
-AwesomeTable(pd.json_normalize(df))
+AwesomeTable(json_normalize(df))
 
 #Skills
 info = {'skills':['Data Science','SQL','Postgres','MongoDB','Python','Java','C++','Airflow','PowerBI','Asana', 'Loom', 'Clockify', 'Notion']}
