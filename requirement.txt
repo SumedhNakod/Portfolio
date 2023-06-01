@@ -1,1 +1,1 @@
-awesome-streamlit==20191014.2
+streamlit-awesome-table==0.1.0
