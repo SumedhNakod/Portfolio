@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 from awesome_table import AwesomeTable
-import pandas as pd
-from pandas import json_normalize
+#import pandas as pd
+import json
 from pathlib import Path
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
