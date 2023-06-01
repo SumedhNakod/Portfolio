@@ -6,7 +6,7 @@ from pathlib import Path
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 #css_file = "/content/main.css"
-resume_file = current_dir / "PTSumedhNakod.pdf"
+resume_file = current_dir / "SumedhNakod.pdf"
 profile_pic_file = current_dir / "profile-pic1.png"
 
 PAGE_TITLE = "Digital cv | Sumedh Nakod"
