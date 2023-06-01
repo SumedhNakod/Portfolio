@@ -70,7 +70,7 @@ with col2:
   st.download_button(
     label = " 📄 Download Resume",
     data = PDFbyte,
-    file_name = resume_file,
+    file_name = resume_file.name,
     mime = "application/octet-stream",
   )
   st.write("📧", EMAIL)
