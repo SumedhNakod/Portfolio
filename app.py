@@ -66,7 +66,7 @@ padding_html = f'<div style="padding-top: {padding_px}px;"></div>'
 col1,col2 = st.columns(2,gap = "small")
 with col1:
   st.markdown(padding_html, unsafe_allow_html=True)
-  st.image(profile_pic, width =300)
+  st.image(profile_pic, width =300,output_format='PNG')
 
 with col2:
   st.title(NAME)
