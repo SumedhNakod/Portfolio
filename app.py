@@ -25,8 +25,7 @@ SOCIAL_MEDIA = {
 PROJECTS = {
 "🏆 IT Spend Dashboard -  Analysing IT Spend for a company from 2001 to 2012": {
   'link' : "https://github.com/SumedhNakod/Projects/blob/master/PowerBI%20Projects/IT%20Spend%20Analytics/IT_SPEND_ANALYSIS.pdf",
-  'description' : "The IT spend analysis PowerBI dashboard project for the years 2001-2012 utilized interactive visualizations, drill-down functionality, dynamic filters, data consolidation, advanced calculations, conditional formatting, cross-filtering & export functionality. The dashboard provided an overview of the total IT spending for each year, as well as a breakdown of expenditures across different categories, such as hardware, software, infrastructure, services, and personnel.
-"
+  'description' : "The IT spend analysis PowerBI dashboard project for the years 2001-2012 utilized interactive visualizations, drill-down functionality, dynamic filters, data consolidation, advanced calculations, conditional formatting, cross-filtering & export functionality. The dashboard provided an overview of the total IT spending for each year, as well as a breakdown of expenditures across different categories, such as hardware, software, infrastructure, services, and personnel."
 },
 "🏆 Comment Toxicity Detector using Keras and LSTM with Gradio App (NLP)": {
   'link' : "https://github.com/SumedhNakod/Projects/blob/master/Toxicity_Detector.ipynb",
