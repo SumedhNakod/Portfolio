@@ -77,7 +77,7 @@ with col2:
   st.write("📞", Phone_number)
 
 #Social Links
-st.write("#")
+#st.write("#")
 cols = st.columns(len(SOCIAL_MEDIA))
 for index,(platform,link) in enumerate(SOCIAL_MEDIA.items()):
   cols[index].write(f"[{platform}]({link})")
@@ -101,7 +101,7 @@ st.write(
     """
   )
 
-st.write("#")
+#st.write("#")
 st.markdown('<h5><u>'+'XLNC Technologies (Business Analytics Intern) - Mumbai' + '</h5>' , unsafe_allow_html=True)
 st.write("May 2019 - June 2019")
 st.write("#")
