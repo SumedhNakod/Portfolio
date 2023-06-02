@@ -86,6 +86,7 @@ for index,(platform,link) in enumerate(SOCIAL_MEDIA.items()):
 #Experience and Qualifications
 st.write("#")
 st.subheader("Professional Experience 💻")
+st.write("---")
 st.markdown('<h5><u>'+'Blackcoffer (Data Science Intern) - Delhi' + '</h5>' , unsafe_allow_html=True)
 st.write("Nov 2021 - Apr 2022")
 st.write("#")
