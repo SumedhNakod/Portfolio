@@ -145,7 +145,7 @@ st.table(df)
 #Skills
 info = {'skills':['Data Science','SQL','Postgres','MongoDB','Python','Java','C++','Airflow','PowerBI','Asana', 'Loom', 'Clockify', 'Notion']}
 skill_col_size = 5
-st.write("#")
+#st.write("#")
 st.subheader('Skills & Tools ⚒️')
 st.write("---")
 def skill_tab():
