@@ -96,7 +96,6 @@ st.write("---")
 st.markdown('<h5><u>'+'Blackcoffer (Data Science Intern) - Delhi' + '</h5>' , unsafe_allow_html=True)
 st.write("Nov 2021 - Apr 2022")
 #st.write("#")
-V_SPACE(1)
 st.write(
     """
     Blackcoffer is an enterprise software and analytics consulting firm based in India and European Union (Malta). It is a Data-driven technology and decision science firm focused exclusively on Big Data & Analytics (Intern for 7 months).
@@ -113,7 +112,6 @@ V_SPACE(1)
 st.markdown('<h5><u>'+'XLNC Technologies (Business Analytics Intern) - Mumbai' + '</h5>' , unsafe_allow_html=True)
 st.write("May 2019 - June 2019")
 #st.write("#")
-V_SPACE(1)
 st.write(
     """
     XLNC Technologies is an emerging firm providing specialized services pertaining to Robotic Process Automation (Automation Anywhere), Machine Learning, and Artificial intelligence.
