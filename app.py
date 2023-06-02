@@ -45,6 +45,10 @@ PROJECTS = {
 },
 }
 
+def V_SPACE(lines):
+  for _ in range(lines):
+    st.write('&nbsp;')
+
 
 st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON)
 
@@ -78,6 +82,7 @@ with col2:
 
 #Social Links
 #st.write("#")
+V_SPACE(1)
 cols = st.columns(len(SOCIAL_MEDIA))
 for index,(platform,link) in enumerate(SOCIAL_MEDIA.items()):
   cols[index].write(f"[{platform}]({link})")
@@ -85,11 +90,13 @@ for index,(platform,link) in enumerate(SOCIAL_MEDIA.items()):
 
 #Experience and Qualifications
 #st.write("#")
+V_SPACE(1)
 st.subheader("Professional Experience 💻")
 st.write("---")
 st.markdown('<h5><u>'+'Blackcoffer (Data Science Intern) - Delhi' + '</h5>' , unsafe_allow_html=True)
 st.write("Nov 2021 - Apr 2022")
 #st.write("#")
+V_SPACE(1)
 st.write(
     """
     Blackcoffer is an enterprise software and analytics consulting firm based in India and European Union (Malta). It is a Data-driven technology and decision science firm focused exclusively on Big Data & Analytics (Intern for 7 months).
@@ -102,9 +109,11 @@ st.write(
   )
 
 #st.write("#")
+V_SPACE(1)
 st.markdown('<h5><u>'+'XLNC Technologies (Business Analytics Intern) - Mumbai' + '</h5>' , unsafe_allow_html=True)
 st.write("May 2019 - June 2019")
 #st.write("#")
+V_SPACE(1)
 st.write(
     """
     XLNC Technologies is an emerging firm providing specialized services pertaining to Robotic Process Automation (Automation Anywhere), Machine Learning, and Artificial intelligence.
@@ -117,6 +126,7 @@ st.write(
 # Skills
 # Education
 #st.write("#")
+V_SPACE(1)
 st.subheader("Education 🎓")
 st.write("---")
 df = {
@@ -146,6 +156,7 @@ st.table(df)
 info = {'skills':['Data Science','SQL','Postgres','MongoDB','Python','Java','C++','Airflow','PowerBI','Asana', 'Loom', 'Clockify', 'Notion']}
 skill_col_size = 5
 #st.write("#")
+V_SPACE(1)
 st.subheader('Skills & Tools ⚒️')
 st.write("---")
 def skill_tab():
@@ -165,6 +176,7 @@ with st.spinner(text="Loading section..."):
 
 # --- Projects & Accomplishments ---
 #st.write("#")
+V_SPACE(1)
 
 st.subheader("Projects & Accomplishments 👷🏻")
 st.write("---")
