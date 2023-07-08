@@ -99,10 +99,10 @@ st.write("Nov 2021 - Apr 2022")
 st.write(
     """
     Blackcoffer is an enterprise software and analytics consulting firm based in India and European Union (Malta). It is a Data-driven technology and decision science firm focused exclusively on Big Data & Analytics (Intern for 7 months).
-    - ✔️Drive the interaction between the managers and worldwide clients identifying as well as defining analytical needs and providing them with a sustainable solution.
-    - ✔️Researched, identified, and appraised emerging technologies and algorithms to provide strategic recommendations and continuous improvements (ML, Web Scraping, GCP), done for an individual needing daily continuous extraction of cryptocurrency data from a website and storing the same in GCP.
-    - ✔️Demonstrated business knowledge and insightful information using PowerBi and Tableau for powerful advanced visualization for a Nigerian government-based project, along with EDA and data engineering using Python, MongoDB,SQL and Airtables (Python Integration) for a South Africa-based company.
-    - ✔️Improving accuracy and running previously made machine learning projects as desired according to the needs of the client.
+    - ✔️Orchestrated global client engagement efforts by providing insightful analytics, identifying business problems and crafting customized solutions.
+    - ✔️Researched, identified, appraised emerging technologies, algorithms and provided strategic recommendations and continuous improvements for an Australian-based client a project focused on extracting real-time cryptocurrency data from multiple sources and implementing a robust data pipeline to securely store and analyze the data in Google Cloud Platform (GCP).
+    - ✔️Demonstrated business knowledge and insightful information using PowerBi and Tableau for powerful advanced visualization for a Nigerian government-based project and suggested changes to their current system improving future data flow
+    - ✔️Maintained, debugged, and Improved the accuracy of new and previously made machine learning projects for various clients leading to the their decision to extend my engagement for subsequent projects.
     - ✔️Successfully led 3 whole projects throughout its life cycle.
     """
   )
