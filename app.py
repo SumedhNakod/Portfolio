@@ -99,11 +99,11 @@ st.write("Nov 2021 - Apr 2022")
 st.write(
     """
     Blackcoffer is an enterprise software and analytics consulting firm based in India and European Union (Malta). It is a Data-driven technology and decision science firm focused exclusively on Big Data & Analytics (Intern for 7 months).
-    - ✔️Orchestrated global client engagement efforts by providing insightful analytics, identifying business problems and crafting customized solutions.
-    - ✔️Researched, identified, appraised emerging technologies, algorithms and provided strategic recommendations and continuous improvements for an Australian-based client a project focused on extracting real-time cryptocurrency data from multiple sources and implementing a robust data pipeline to securely store and analyze the data in Google Cloud Platform (GCP).
-    - ✔️Demonstrated business knowledge and insightful information using PowerBi and Tableau for powerful advanced visualization for a Nigerian government-based project and suggested changes to their current system improving future data flow
-    - ✔️Maintained, debugged, and Improved the accuracy of new and previously made machine learning projects for various clients leading to the their decision to extend my engagement for subsequent projects.
-    - ✔️Successfully led 3 whole projects throughout its life cycle.
+    - ✔️Outperformed peers by leading 20% more global client engagements, delivering strategic insights, and crafting customized solutions.
+    - ✔️Researched, assessed emerging technologies and algorithms, offering strategic guidance and driving continuous enhancements for an Australian client's project. Seamlessly handling a daily influx of around 1 million records, ensuring secure storage for cryptocurrency data from various sources in a robust data pipeline on Google Cloud Platform (GCP).
+    - ✔️Showcased deep business acumen and generated impactful insights through advanced visualization using PowerBI and Tableau for a government-based project in Nigeria. Proposed system enhancements that have since optimized future data flow, contributing to 70% improved efficiency.
+    - ✔️Achieved consistent success by meticulously maintaining, debugging, and enhancing the precision of both new and existing machine learning projects, impressing various clients who subsequently extended involvement for subsequent projects.
+    - ✔️Successfully led 4 whole projects throughout its life cycle. 
     """
   )
 
@@ -115,8 +115,8 @@ st.write("May 2019 - June 2019")
 st.write(
     """
     XLNC Technologies is an emerging firm providing specialized services pertaining to Robotic Process Automation (Automation Anywhere), Machine Learning, and Artificial intelligence.
-    - ✔️Conducted meetings with key businesses to collect information about business processes and user requirements. Daily tasks included making meta documents, giving insights, and working with developers.
-    - ✔️Completed Robotic Process Automation (RPA) training with certification in Automation Anywhere.
+    - ✔️Proactively led meetings with key businesses to gather vital insights on business processes and user requirements. Daily responsibilities encompassed creating meta documents, offering valuable insights, and collaborating closely with developers.
+    - ✔️Successfully accomplished Robotic Process Automation (RPA) training, securing a prestigious certification in Automation Anywhere.
     """
   )
 
